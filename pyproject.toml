@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "mcm"
+version = "0.1.0"
+description = ""
+authors = ["Jasper Mattsson <jasper.mattsson@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+regex = "^2022.10.31"
+PyYAML = "^6.0"
+aiohttp = "^3.8.3"
+rich = "^12.6.0"
+asyncclick = "^8.1.3.4"
+anyio = "^3.6.2"
+xdg = "^5.1.1"
+python-dateutil = "^2.8.2"
+selenium = "^4.5.0"
+tomlkit = "^0.11.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+cli = 'mcm:cli'
