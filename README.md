@@ -86,7 +86,9 @@ mods:
   - WebDriver control of Firefox for downloading mods from `*****Forge`
   - Dependencies are resolved iteratively - mods generally have few dedependencies,
     so cross-dependency problems requiring SAT solver are not present.
-  - Configuration patching by specifying path and an edit - comments and
-    formatting are mostly preserved (including custom diff renderer):
   - Caches mods locally, so it only downloads a version once
   - Checksum checks for downloaded mods
+  - Configuration patching by specifying path and an edit - comments and
+    formatting are mostly preserved (including custom diff renderer):
+    ![Diff renderer](https://raw.githubusercontent.com/Jasu/mcm/main/misc/screenshot-diff.png)
+
